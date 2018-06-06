@@ -1575,4 +1575,4 @@ setInterval(function(){
 		}
 	});
 }, 60000);
-bot.login(process.env.DISCORD_TOKEN);
+bot.login("NDI0NTg4NTE1NTE5NDk2MTky.Dfk7iQ.G63TPB2hs1Mxp9wMeJo70X6vxPw");
