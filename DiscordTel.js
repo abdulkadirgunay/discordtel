@@ -315,7 +315,7 @@ client.IPC.on("stopTyping", async data => {
 	await client.channels.get(data.channel).stopTyping(true);
 });
 
-client.login(process.env.CLIENT_TOKEN).then(() => {
+client.login("NDI0NTg4NTE1NTE5NDk2MTky.DfmpmQ.c1G1MHeIfDUbli2zVhtL1LQ4Z2Q").then(() => {
 	client.IPC.send("ready", { id: client.shard.id });
 });
 
